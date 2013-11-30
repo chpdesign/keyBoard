@@ -39,10 +39,10 @@ Methods & others
   <th></th><th>Info</th>
 </tr>
 <tr>
-  <td>addEvent(callback) : int</td><td>Bind an event to an action.</td>
+  <td>addEvent(eventid,callback) : int</td><td>Bind an event to an action.</td>
 </tr>
 <tr>
-  <td>removeEvent(int) : void</td><td>unBind an event.</td>
+  <td>removeEvent(eventid,int) : void</td><td>unBind an event.</td>
 </tr>
 <tr>
   <td>getLast() : {...data...}</td><td>Returns with the last event with some extra data.</td>
